@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+body{
+    background-color: #006bd0;
+}
+.BannerAmarillo{
+    display: flex;
+    background-color: #faa733;
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid rgb(215, 215, 215);
+}
+.LogoTropigas{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+}
+.LogoTropigas img{
+    width: 100%;
+    height: 100%;
+}
+.ContenedorMaximo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+.ContenedorTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 40%;
+    max-width: 80%;
+    margin-top: 45px;
+}
+.ContenedorTexto .ContenedorTexto2{
+    width: 250px;
+    text-align: center;
+    font-size: 7.8px;
+    color: white;
+}
+
+.ContenedorImagenes{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.ContenedorImagenes .ContenedorImagenes2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ContenedorImagenes .ContenedorImagenes2 .Img2{
+    width: 250px;
+    z-index: 1;
+}
+.ContenedorPaises{
+    width: 100%;
+    position: relative;
+    bottom: 19px;
+}
+.ContenedorPaises .Paises{
+    padding: 15px;
+    margin: 1px;
+    margin-top: 10px;
+    background: linear-gradient(to bottom, #f7ac25 0%, #ea8b13 100%);
+    border-bottom: 3px solid rgb(215, 215, 215);
+    border-radius: 14px;
+    text-align: center;
+}
+.ContenedorPaises .Paises a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.ContenedorCreditos{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.ContenedorCreditos .ContenedorImganesCreditos img{
+    width: 150px;
+    margin: 5px;
+}
+.ContenedorCreditos .ContenedorImganesCreditos .Imagen1{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 150px;
+}
+.ContenedorCreditos .ContenedorImganesCreditos .Imagen2, .Imagen3{
+    width: 120px;
+}
+.Imagen3{
+    width: 90px;
+}
+.InformacionFinal{
+    font-size: 9px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+.InformacionFinalPC{
+    display: none;
+}
+
+
+
+
+.ContenedorImagenes{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.sContenedorImageness .sContenedorImagenes2s{
+    display: none;
+    flex-direction: none;
+    justify-content: none;
+    align-items: none;
+}
+
+.ContenedorImagenes .ContenedorImagenes2 .Img1{
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1040px){
+    .BannerAmarillo{
+        display: flex;
+        background-color: #faa733;
+        width: 100%;
+        height: 40px;
+        border-bottom: 2px solid rgb(215, 215, 215);
+    }
+    .LogoTropigas{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        position: relative;
+        top: 20px;
+        width: 170px;
+        height: 55px;
+    }
+    .LogoTropigas img{
+        width: 100%;
+        height: 100%;
+    }
+    .ContenedorMaximo{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .Contenedor{
+        width: 100%;
+        
+    }
+    .ContenedorTexto{
+        margin-top: 90px;
+        max-width: none;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .ContenedorTexto .ContenedorTexto2{
+        width: 60%;
+        text-align: center;
+        font-size: .8rem;
+        color: white;
+        position: relative;
+        right: 30px;
+    }
+    
+    .ContenedorImagenes{
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .ContenedorImagenes .ContenedorImagenes2{
+        width: 30%;
+    }
+    .ContenedorImagenes .ContenedorImagenes2 .Img1{
+        display: flex;
+        width: 340px;
+        position: absolute;
+        top: 200px;
+        left: -70px;
+        z-index: 1;
+    }
+    .ContenedorPaises{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        position: relative;
+        margin-top: 40px;
+        bottom: 19px;
+        left: 17%;
+    }
+    .ContenedorPaises .Paises{
+        width: 45%;
+        height: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
+        background: linear-gradient(to bottom, #f7ac25 0%, #ea8b13 100%);
+        border-bottom: 3px solid rgb(215, 215, 215);
+        border-radius: 50px;
+        text-align: center;
+    }
+    .ContenedorPaises .Paises a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .ContenedorCreditos{
+        width: 70%;
+        position: relative;
+        margin-top: 70px;
+        bottom: 19px;
+        left: 15%;
+    }
+    .ContenedorCreditos .ContenedorImganesCreditos{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ContenedorCreditos .ContenedorImganesCreditos .Imagen2, .Imagen3{
+        width: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        position: relative;
+        right: 50px;
+    }
+    .ContenedorCreditos .ContenedorImganesCreditos .Imagen3{
+        position: relative;
+        right: 30px;
+    }
+    .ContenedorCreditos .ContenedorImganesCreditos .Imagen1{
+        width: 100px;
+        height: 40px;
+        position: relative;
+        top: 10px;
+
+    }
+    .ContenedorCreditos .ContenedorImganesCreditos .Imagen2, .Imagen3{
+        width: 120px;
+    }
+    .Imagen3{
+        width: 90px;
+    }
+    .InformacionFinalPC{
+        font-size: 9px;
+        text-align: center;
+        color: white;
+        width: 100%;
+        margin-top: 400px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .InformacionFinal{
+       display: none;
+    }
+    
+    .ContenedorImagenes .ContenedorImagenes2 .Img2{
+        display: none;
+    }
+}
+@media (min-width: 900px) {
+    .ContenedorImagenes .ContenedorImagenes2 .Img1 {
+        display: flex;
+        width: 450px;
+        position: absolute;
+        top: 200px;
+        left: -120px;
+        z-index: 1;
+}
+}
+
+@media screen and (min-width: 1041px) and (max-width: 1900px){
+    .BannerAmarillo{
+        display: flex;
+        background-color: #faa733;
+        width: 100%;
+        height: 60px;
+        border-bottom: 2px solid rgb(215, 215, 215);
+    }
+    .LogoTropigas{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        position: relative;
+        top: 20px;
+        width: 170px;
+        height: 65px;
+    }
+    .LogoTropigas img{
+        width: 100%;
+        height: 100%;
+    }
+    .ContenedorMaximo{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .Contenedor{
+        width: 100%;
+        
+    }
+    .ContenedorTexto{
+        margin-top: 90px;
+        max-width: none;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-bottom: 500px;
+    }
+    .ContenedorTexto .ContenedorTexto2{
+        width: 400px;
+        text-align: center;
+        font-size: .8rem;
+        color: white;
+        position: relative;
+        right: 10%;
+    }
+    
+    .ContenedorImagenes{
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .ContenedorImagenes .ContenedorImagenes2{
+        width: 30%;
+    }
+    .ContenedorImagenes .ContenedorImagenes2 .Img1{
+        display: flex;
+        width: 500px !important;
+        position: absolute;
+        top: 250px !important;
+        left: -7% !important;
+        z-index: 1;
+    }
+    .ContenedorPaises{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        position: relative;
+        margin-top: 40px;
+        bottom: 19px;
+        left: 17%;
+    }
+    .ContenedorPaises .Paises{
+        width: 45%;
+        height: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
+        background: linear-gradient(to bottom, #f7ac25 0%, #ea8b13 100%);
+        border-bottom: 3px solid rgb(215, 215, 215);
+        border-radius: 50px;
+        text-align: center;
+    }
+    .ContenedorPaises .Paises a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .ContenedorCreditos{
+        width: 70%;
+        position: relative;
+        margin-top: 70px;
+        bottom: 19px;
+        left: 15%;
+    }
+    .ContenedorCreditos .ContenedorImganesCreditos{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ContenedorCreditos .ContenedorImganesCreditos .Imagen2{
+        width: 20% !important;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        position: relative;
+        right: 20%;
+    }
+    .ContenedorCreditos .ContenedorImganesCreditos .Imagen3{
+        position: relative;
+        right: 10%;
+        width: 20% !important;
+    }
+    .ContenedorCreditos .ContenedorImganesCreditos .Imagen1{
+        width: 20% !important;
+        height: 40px;
+        position: relative;
+        top: 20%;
+        right: 10%;
+
+    }
+    .ContenedorCreditos .ContenedorImganesCreditos .Imagen2, .Imagen3{
+        width: 120px;
+    }
+    .Imagen3{
+        width: 90px;
+    }
+    .InformacionFinalPC{
+        font-size: 9px;
+        text-align: center;
+        color: white;
+        width: 100%;
+        margin-top: 200px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .InformacionFinal{
+       display: none;
+    }
+    
+    .ContenedorImagenes .ContenedorImagenes2 .Img2{
+        display: none;
+    }
+}
+
