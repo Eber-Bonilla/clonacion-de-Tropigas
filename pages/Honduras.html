@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/Honduras.css">
     <link rel="stylesheet" href="node_modules/glider-js/glider.min.css">
     <link rel="stylesheet" href="node_modules/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
     <title>Honduras</title>
 </head>
 <body>
@@ -22,86 +23,64 @@
             <img src="src/HondurasImagen0.jpg" alt="" width="175">
         </div>
 
+        
+
         <div class="Texto1"><p>Nuestras <b>Categorias</b></p></div>
-
-        <div class="carousel">
-            <div class="carouser__contenedor">
-                <button aria-label="Anterior" class="carousel__anterior">
-                    <i class='bx bx-chevron-left'></i>
-                </button>
-
-                <div class="carousel__lista">
-                    <div class="carousel__elemento">
-                        <img src="src/HondurasImagen8.png" alt="">
-                        <p>Automotriz</p>
-                    </div>
-                    <div class="carousel__elemento">
-                        <img src="src/HondurasImagen2.png" alt="">
-                        <p>Cocina</p>
-                    </div>
-                    <div class="carousel__elemento">
-                        <img src="src/HondurasImagen3.png" alt="">
-                        <p>Lavadoras</p>
-                    </div>
-                    <div class="carousel__elemento">
-                        <img src="src/HondurasImagen4.png" alt="">
-                        <p>Muebles</p>
-                    </div>
-                    <div class="carousel__elemento">
-                        <img src="src/HondurasImagen5.png" alt="">
-                        <p>Electrodomesticos</p>
-                    </div>
-                    <div class="carousel__elemento">
-                        <img src="src/HondurasImagen6.png" alt="">
-                        <p>Refrigeradores</p>
-                    </div>
-                    <div class="carousel__elemento">
-                        <img src="src/HondurasImagen7.png" alt="">
-                        <p>TV y Videos</p>
-                    </div>
-                </div>
-
-                <button aria-label="Siguiente" class="carousel__siguiente">
-                    <i class='bx bx-chevron-right'></i>
-                </button>
-                <div role="tablist" class="carousel__indicadores"></div>
-            </div> 
+        
+        <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="src/HondurasImagen8.png" alt="">
+          <p>Automotriz</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="src/HondurasImagen2.png" alt="">
+          <p>Cocina</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="src/HondurasImagen3.png" alt="">
+          <p>Lavadoras</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="src/HondurasImagen4.png" alt="">
+          <p>Muebles</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="src/HondurasImagen5.png" alt="">
+          <p>Electrodomésticos</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="src/HondurasImagen6.png" alt="">
+          <p>Refrigeradoras</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="src/HondurasImagen7.png" alt="">
+          <p>TV y Video</p>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
         </div>
 
         <div class="Texto2"><p>¡No te perdás las <strong>marcas destacadas!</strong></p></div>
 
-
-    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
-    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
-    <swiper-slide>
-        <img src="src/HondurasImagen8.png" alt="">
-    </swiper-slide>
-    <swiper-slide>
-        <img src="src/HondurasImagen8.png" alt="">
-    </swiper-slide>
-    <swiper-slide>
-        <img src="src/HondurasImagen8.png" alt="">
-    </swiper-slide>
-    <swiper-slide>
-        <img src="src/HondurasImagen8.png" alt="">
-    </swiper-slide>
-    <swiper-slide>
-        <img src="src/HondurasImagen8.png" alt="">
-    </swiper-slide>
-    <swiper-slide>
-        <img src="src/HondurasImagen8.png" alt="">
-    </swiper-slide>
-    <swiper-slide>
-        <img src="src/HondurasImagen8.png" alt="">
-    </swiper-slide>
-    <swiper-slide>
-        <img src="src/HondurasImagen8.png" alt="">
-    </swiper-slide>
-  </swiper-container>
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+          </div>
+          <div class="swiper-button-next slider2-next"></div>
+          <div class="swiper-button-prev slider2-prev"></div>
+          <div class="swiper-pagination slider2-pagination"></div>
+        </div>
     </div> 
+
 </body>
+<script src="node_modules/swiper/swiper-bundle.min.js"></script>
+<script src="js/swiperSlider.js"></script>
 <script src="node_modules/glider-js/glider.min.js"></script>
 <script src="js/SliderHonduras.js"></script>
 </html>

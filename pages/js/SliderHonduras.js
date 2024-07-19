@@ -42,36 +42,5 @@ window.addEventListener('load', function(){
 glider.ele.addEventListener('scroll', checkInfiniteScroll);
 });
 
+//
 
-window.addEventListener('load', function() {
-  var glider = new Glider(document.querySelector('.carousel__Marcas'), {
-      slidesToShow: 2,
-      slidesToScroll: 2,
-      draggable: true,
-      dragVelocity: 1.1,
-      dots: '.carousel__indicadores2',
-      arrows: {
-          prev: '.carousel__anterior2',
-          next: '.carousel__siguiente2'
-      },
-      responsive: [
-          {
-              breakpoint: 700,
-              settings: {
-                  slidesToShow: 4,
-                  slidesToScroll: 1,
-                  draggable: true,
-                  dragVelocity: 1.1,
-              }
-          },{
-              breakpoint: 1024,
-              settings: {
-                  slidesToShow: 7,
-                  slidesToScroll: 1,
-                  draggable: true,
-                  dragVelocity: 1.1,
-              }
-          }
-      ]
-  });
-});
