@@ -1,16 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+}
+.Maximo{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.ParteAmarilla{
+  width: 100%;
+  height: 20px;
+  background-color: #faa733;
+  border-bottom: 2px solid rgb(215, 215, 215);
+}
+.ParteAzul{
+  width: 100%;
+  height: 35px;
+  background-color: #006bd0;
+  border-bottom: 2px solid rgb(35, 146, 238);
+}
+.ContenedorLogo{
+  position: relative;
+  top: -50px;
+  left: 10%;
+  width: 100px;
+  height: 35px;
+  margin-bottom: -34px;
+}
+.ContenedorLogo img{
+  width: 100%;
+  height: 100%;
+  
+}
+.ImagenPuclicitaria{
+  width: 100%;
+  margin-bottom: 15px;
+}
+.ImagenPuclicitaria .img1{
+  display: none;
+}
+.ImagenPuclicitaria .img2{
+  width: 100%;
+  position: relative;
+}
+.Texto1{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.Texto1 p{
+ font-size: 1.4rem;
+ text-align: center;
+}
+
 .swiper {
     width: 100%;
-    height: 200px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .swiper-slide {
     text-align: center;
-    font-size: 18px;
+    font-size: 25px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
+  .swiper-button-next, .swiper-button-prev{
+    position: relative;
+    top: 60px !important;
+    width: 20px;
+    height: 20px;
+  }
   .swiper-slide img {
     width: 100%;
     height: 70%;
@@ -20,35 +84,78 @@
   .swiper-slide p {
     color: black;
     z-index: 1;
-    font-size: 10px;
+    font-size: 13px;
     position: relative;
-    top: -20px;
+    top: -25px;
   } 
+  .swiper-pagination{
+    position: relative;
+    top: 160px !important;
+  }
+.Texto2{
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.Texto2 p{
+  font-size: 1.6rem;
+  text-align: center;
+}
 
-  .swiper {
-    margin-left: auto;
-    margin-right: auto;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /**/
+  .mySwiper2 {
+    width: 100%;
+    height: 140px;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    margin-bottom: 40px;
+  }
+  .mySwiper2 .swiper-slide {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50% !important;
+    z-index: 2;
+    margin: 0 auto;
+    height: 100px;
+  }
+  .mySwiper2 .swiper-slide img{
+    width: 100% !important;
+    height: 50% !important; 
+    margin-right: 130px !important;
+    object-fit: cover;
+    margin: 0 auto !important;
+    z-index: 2;
   }
 
-
-  /**/
-  .swiperxd {
-      width: 100%;
-      height: 100%;
-    }
-
-    .swiper-slidexd {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .swiper-slidexd .imgxd {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+  .swiper-slide p {
+    color: black;
+    z-index: 1;
+    font-size: 13px;
+    position: relative;
+    top: -25px;
+  } 
+  .slider2-pagination{
+    position: relative;
+    top: 100px !important;
+    
+  }
